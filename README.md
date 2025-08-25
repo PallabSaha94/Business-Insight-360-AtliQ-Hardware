@@ -13,22 +13,23 @@
 
 ## 🔑 Highlights (Features)
 - Executive summary with high-level KPIs and quick filters
-- Trend analysis with **YoY** and **MoM** deltas
+- Trend analysis with **YoY** deltas
 - **Top N** insights for products, customers, and markets
-- Decomposition via drill-downs and cross-filtering
-- Clean, mobile-friendly visuals
+- Decomposition via cross-filtering
+
 
 ## 🧱 Data Model (Conceptual)
 - **Fact**: Sales/Transactions (date, product, customer, market, revenue, cost, profit, discount)
 - **Dimensions**: Date, Product, Customer, Market, Fiscal Year
-- Star schema with surrogate keys and one-to-many relationships
+- Star schema with few Snowflake schemas and one-to-many relationships
 
 ## 🗺️ Pages (Typical Navigation)
-- **Executive Summary** — KPIs, trend cards, slicers
-- **Sales Performance** — revenue/profit trends, variance vs. last year
-- **Products** — top/bottom products, contribution analysis
-- **Customers/Segments** — CLV, frequency, average order value
-- **Markets** — performance by market with drill-downs
+- **Home Page** — Information about Report and Other Page navigation to start
+- **Finance Report** — Major KPIs, P&L statements with Dynamic year filter
+- **Sales** — Performance Matrix
+- **Marketing** — Product & Customer performance with Unit Economics
+- **Supply Chain** — Forecast Accuracy with Net error Trend
+- **Executive** — Accumulating all the Key metrics for one stop analysis 
 
 ## 🖼️ Screenshots 
 <img width="1256" height="706" alt="image" src="https://github.com/user-attachments/assets/5bc00798-40b5-42fe-869d-14e3f4a2818c" />
