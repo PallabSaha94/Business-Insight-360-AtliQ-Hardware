@@ -38,22 +38,6 @@
 <img width="967" height="546" alt="image" src="https://github.com/user-attachments/assets/b16e1b6a-8ee7-4e6c-aa8f-2141fb9dc515" />
 <img width="965" height="547" alt="image" src="https://github.com/user-attachments/assets/62c36b69-ace6-45e5-8fda-4bcab87f4567" />
 
-Embed in README:
-```markdown
-![Overview](Screenshots/dashboard_overview.png)
-```
-
-## 🗂️ Repository Structure
-```
-.
-├─ Business Insight 360.pbix
-├─ Data/                # sample CSV/Excel or SQL scripts (if shareable)
-├─ Docs/
-│  └─ Data_Dictionary.md   # optional metadata documentation
-├─ Screenshots/
-└─ README.md
-```
-
 ## 🚀 How to Use
    **View online** (no install): open the **Live Interactive Dashboard** link at the top.  
 ## 🔒 Data & Privacy
